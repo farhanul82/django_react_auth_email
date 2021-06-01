@@ -1,0 +1,90 @@
+:root {
+  --skin-color: #fb839e;
+  --bg-black--900: #000000;
+  --bg-black--100: #dddddd;
+  --bg-black--50: #eff0f4;
+  --text-black-900: #000000;
+  --text-black-700: #555555;
+  --text-black-300: #666666;
+  --text-black-600: #bbbbbb;
+
+  --outer-shadow: 3px 3px 3px #d0d0ed, inset -3px -3px -3px #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px -3px #f8f8f8;
+}
+
+/* ----------custom css variable for dark theme------ */
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background-color: var(--bg-black--50);
+}
+
+*:not(i) {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.startImg {
+  width: 12%;
+  margin-left: 400px;
+  margin-top: 124px;
+}
+
+.start-text h3 {
+  text-align: center;
+}
+
+.start-text h3 .span1 {
+  color: red;
+}
+
+.start-text h3 .span2 {
+  color: #000000;
+}
+
+.start_btn {
+  border: 1px solid;
+
+  background: rgb(193 41 7);
+  margin-left: 390px;
+  margin-top: 81px;
+  border-radius: 41px;
+  width: 16%;
+  padding: 13px;
+  color: whitesmoke;
+}
+
+/* ----login */
+.logInImg {
+  width: 18%;
+  margin-left: 185px;
+  margin-top: 170px;
+}
